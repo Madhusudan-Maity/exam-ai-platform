@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/.venv/
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Linters
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Environment Variables & Secrets (Keep your API keys private)
+.env
+backend/.env
+*.local
+
+# Database files (local single-user data)
+*.db-journal
+*.db-wal
+*.db-shm
+
+# IDE & Editor files
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Node & Frontend (for Phase 3/5)
+frontend/node_modules/
+frontend/dist/
+.npm
